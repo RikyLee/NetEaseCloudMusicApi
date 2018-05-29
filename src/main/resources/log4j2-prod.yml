@@ -47,7 +47,7 @@ Configuration:
     Logger: # 为com.riky.neteasecloudmusicapi包配置特殊的Log级别，方便调试
       - name: com.riky.neteasecloudmusicapi
         additivity: false
-        level: ${sys:log.level.olami}
+        level: ${sys:log.level.neteasecloudmusicapi}
         AppenderRef:
           - ref: CONSOLE
           - ref: ROLLING_FILE
